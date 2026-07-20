@@ -3,15 +3,81 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Md. Tareq Aziz Sifate — Software Engineer</title>
-<meta name="description" content="Portfolio of Md. Tareq Aziz Sifate, Software Engineer specializing in Laravel, Vue.js, and enterprise web applications.">
-<link rel="stylesheet" href="style.css">
+<title>Md. Tareq Aziz Sifate — Software Engineer | PHP &amp; Laravel Developer, Dhaka</title>
+<meta name="description" content="Software Engineer in Dhaka, Bangladesh with 5+ years building enterprise web apps. PHP, Laravel, Vue.js & MySQL. REST APIs, HR/payroll, e-commerce & fund management.">
+<meta name="keywords" content="software engineer bangladesh, php developer dhaka, php developer, laravel developer, laravel developer bangladesh, laravel developer dhaka, vue.js developer, full stack developer dhaka, backend developer bangladesh, software engineer dhaka, web developer bangladesh, php laravel developer, rest api developer, mysql developer, hire php developer bangladesh, remote php developer, Tareq Aziz Sifate">
+<link rel="canonical" href="https://tareqsifat.github.io/PersonalWebsite/">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="assets/images/photo.jpeg" type="image/jpeg">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Md. Tareq Aziz Sifate — Software Engineer | PHP & Laravel Developer, Dhaka">
+<meta property="og:description" content="Software Engineer in Dhaka, Bangladesh with 5+ years building enterprise web apps. PHP, Laravel, Vue.js & MySQL. REST APIs, HR/payroll, e-commerce & fund management.">
+<meta property="og:url" content="https://tareqsifat.github.io/PersonalWebsite/">
+<!-- Ideal OG image is 1200x630; photo.jpeg is a fallback until a dedicated OG image exists -->
+<meta property="og:image" content="https://tareqsifat.github.io/PersonalWebsite/assets/images/photo.jpeg">
+<meta property="og:image:alt" content="Md. Tareq Aziz Sifate">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Md. Tareq Aziz Sifate — Software Engineer | PHP & Laravel Developer, Dhaka">
+<meta name="twitter:description" content="Software Engineer in Dhaka, Bangladesh with 5+ years building enterprise web apps. PHP, Laravel, Vue.js & MySQL. REST APIs, HR/payroll, e-commerce & fund management.">
+<meta name="twitter:image" content="https://tareqsifat.github.io/PersonalWebsite/assets/images/photo.jpeg">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Md. Tareq Aziz Sifate",
+  "jobTitle": "Software Engineer",
+  "url": "https://tareqsifat.github.io/PersonalWebsite/",
+  "image": "https://tareqsifat.github.io/PersonalWebsite/assets/images/photo.jpeg",
+  "email": "mailto:mdtareq.me@gmail.com",
+  "telephone": "+8801857856484",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dhaka",
+    "addressRegion": "Dhaka",
+    "addressCountry": "Bangladesh"
+  },
+  "sameAs": [
+    "https://github.com/tareqsifat",
+    "https://www.linkedin.com/in/md-tareq-aziz-sifat-0430a5147/"
+  ],
+  "knowsAbout": [
+    "PHP", "Laravel", "Vue.js", "Nuxt.js", "MySQL", "PostgreSQL",
+    "REST API Development", "Docker", "Ruby on Rails",
+    "HR & Payroll Systems", "Fund Management Systems", "E-commerce"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "International Islamic University Chittagong"
+  }
+}
+</script>
 </head>
 <body>
 
-<header class="hero">
+<nav class="site-nav" aria-label="Primary">
+  <div class="container nav-inner">
+    <a href="#top" class="nav-brand">TAS</a>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#domains">Domains</a></li>
+      <li><a href="#opensource">Open Source</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
   <div class="container">
-    <img src="photo.jpeg" alt="Md. Tareq Aziz Sifate" class="profile-photo">
+    <img src="assets/images/photo.jpeg" alt="Md. Tareq Aziz Sifate" class="profile-photo">
     <h1>Md. Tareq Aziz Sifate</h1>
     <p class="title">Software Engineer</p>
     <p class="location">Mirpur, Dhaka, Bangladesh</p>
@@ -20,7 +86,7 @@
       <a href="https://github.com/tareqsifat" class="btn" target="_blank" rel="noopener">GitHub</a>
       <a href="https://www.linkedin.com/in/md-tareq-aziz-sifat-0430a5147/" class="btn" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:mdtareq.me@gmail.com" class="btn btn-accent" target="_blank" rel="noopener">Email Me</a>
-      <a href="https://drive.google.com/file/d/1mahg50t5Vj0GLX4VPRhW-9wjufnmgELR/view?usp=sharing" class="btn" target="_blank" rel="noopener">Resume</a>
+      <a href="./cv.pdf" id="download-cv" class="btn btn-accent" target="_blank" rel="noopener">Download CV</a>
     </div>
   </div>
 </header>
@@ -210,24 +276,26 @@
         <span class="card-link-disabled">Private / Internal</span>
       </div>
 
-      <div class="card">
+      <div class="card card-preview">
+        <img src="assets/images/projects/britishmarket.png" alt="Screenshot of the British Marketplace website" class="card-preview-img" loading="lazy" decoding="async">
         <h3>British Marketplace — Multi-Vendor E-commerce</h3>
         <div class="tags">
           <span class="tag">Laravel</span>
           <span class="tag">MySQL</span>
         </div>
         <p>Large-scale multi-vendor marketplace backend rebuild. Supports multi-currency transactions, concurrent API handling, and international checkout flows. Built cross-border functionality expanding platform reach to international markets.</p>
-        <span class="card-link-disabled">Private / Internal</span>
+        <a href="https://britishmarketplace.co.uk/" class="card-link" target="_blank" rel="noopener">Visit Live Site ↗</a>
       </div>
 
-      <div class="card">
+      <div class="card card-preview">
+        <img src="assets/images/projects/euro_staffs.png" alt="Screenshot of the Eurostaffs recruitment website" class="card-preview-img" loading="lazy" decoding="async">
         <h3>Recruitment Management System</h3>
         <div class="tags">
           <span class="tag">Laravel</span>
           <span class="tag">MySQL</span>
         </div>
         <p>End-to-end recruitment lifecycle platform. Implemented RBAC, multi-stage hiring workflows, and candidate tracking supporting concurrent usage by HR teams, recruiters, and candidates. Owned full backend architecture from data modelling through production API delivery.</p>
-        <span class="card-link-disabled">Private / Internal</span>
+        <a href="https://eurostaffs.org/" class="card-link" target="_blank" rel="noopener">Visit Live Site ↗</a>
       </div>
 
       <div class="card">
@@ -241,15 +309,16 @@
         <span class="card-link-disabled">Private / Internal</span>
       </div>
 
-      <div class="card">
-        <h3>Sports Management System</h3>
+      <div class="card card-preview">
+        <img src="assets/images/projects/bloom.png" alt="Screenshot of the Bloom Netball website" class="card-preview-img" loading="lazy" decoding="async">
+        <h3>Bloom Netball — Sports Management</h3>
         <div class="tags">
           <span class="tag">PHP</span>
           <span class="tag">Vue.js</span>
           <span class="tag">MySQL</span>
         </div>
         <p>Tournament, team, and fixture management modules supporting complex scheduling across multiple concurrent competitions. Optimized the fixture scheduling engine reducing query overhead on large datasets.</p>
-        <span class="card-link-disabled">Private / Internal</span>
+        <a href="https://www.bloomnetball.co.uk/" class="card-link" target="_blank" rel="noopener">Visit Live Site ↗</a>
       </div>
 
       <div class="card">
@@ -317,5 +386,6 @@
   </div>
 </footer>
 
+<script src="assets/js/script.js" defer></script>
 </body>
 </html>

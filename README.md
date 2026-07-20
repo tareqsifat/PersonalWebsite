@@ -10,6 +10,10 @@ Personal portfolio for Md. Tareq Aziz Sifate.
 
 ## Files
 - index.html — main portfolio page
-- style.css — all styles
-- photo.jpg — replace with your actual photo (same filename)
+- assets/css/style.css — all styles
+- assets/js/script.js — CV download/view button behavior
+- assets/images/photo.jpeg — profile photo
+- assets/images/projects/ — live project preview screenshots
+- cv.pdf — downloadable CV (add this yourself)
+- robots.txt, sitemap.xml — SEO
 # PersonalWebsite

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tareqsifat.github.io/PersonalWebsite/sitemap.xml
